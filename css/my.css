@@ -21,5 +21,8 @@
   
   .button:hover {
     text-decoration-line: none;
-    background-color: #69280e;
+    background-color: #bd6543;
+    color: aliceblue;
+    border-color: cadetblue;
+    border: solid chartreuse 2px;
   }
