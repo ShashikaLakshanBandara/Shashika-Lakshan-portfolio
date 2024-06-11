@@ -27,12 +27,19 @@
   .card {
     border: none;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    height: 400px; /* Adjust the height as needed */
+    height: 500px; /* Fixed height for the card */
   }
   
-  .card-img-top, .carousel-inner img {
-    height: 200px; /* Adjust the height as needed */
+  .carousel-inner img {
+    height: 200px; /* Fixed height for the images */
     object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 200px); /* Adjust to leave space for the image */
   }
   
   .card-title {
@@ -43,11 +50,28 @@
   .card-text {
     font-size: 0.9rem;
     color: #6c757d;
+    flex-grow: 1;
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis (...) for overflow text */
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Limit the number of lines to 4 */
+    -webkit-box-orient: vertical;
+  }
+  
+  .btn-container {
+    display: flex;
+    gap: 10px;
   }
   
   .btn-primary {
     background-color: #007bff;
     border: none;
   }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+  }
+  
   
   
