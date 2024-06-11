@@ -72,6 +72,33 @@
     background-color: #6c757d;
     border: none;
   }
+  .img-profile::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    background: linear-gradient(white, white), linear-gradient(90deg, #f3ec78, #af4261);
+    background-clip: content-box, border-box;
+    background-origin: border-box;
+    animation: border-animation 3s linear infinite;
+  }
+  .img-profile {
+    position: relative;
+    display: inline-block;
+  }
+
+  @keyframes border-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
   
   
   
