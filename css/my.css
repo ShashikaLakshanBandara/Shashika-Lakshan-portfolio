@@ -22,6 +22,7 @@
 .button:hover {
   text-decoration-line: none;
   background-color: #45A049;
+  box-shadow: 0 0 20px rgba(20, 215, 255, 20); 
 }
 
 .card {
@@ -30,7 +31,14 @@
   display: flex;
   flex-direction: column;
   max-width: 100%; /* Ensure card does not exceed screen width */
+  transition: all 0.3s ease; /* Add smooth transition for hover effect */
 }
+
+.card:hover {
+  transform: scale(1.05); /* Scale up the card on hover */
+  box-shadow: 0 0 25px rgba(20, 215, 255, 20); /* Change box-shadow on hover */
+}
+
 
 .carousel-inner img {
   width: 100%; /* Ensure the image takes the full width of its container */
@@ -40,6 +48,7 @@
 
 .card-body {
   display: flex;
+  background-color: #d4fcfd;
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
