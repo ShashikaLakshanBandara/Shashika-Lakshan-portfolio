@@ -183,3 +183,38 @@
       width: calc(100% + 8px);
   }
 }
+
+.profile-picture-container {
+  margin-top: -100px;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  margin-bottom: 100px;
+  position: relative; /* Add relative positioning */
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid transparent; /* Set initial border */
+  animation: pulse 2s infinite; /* Apply animation */
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+      border-color: #3cfff5; /* Initial border color */
+  }
+  50% {
+      transform: scale(1.05);
+      border-color: #ff47ff; /* Border color at halfway */
+  }
+  100% {
+      transform: scale(1);
+      border-color: #3bff4b; /* Final border color */
+  }
+}
+
+
+
+
