@@ -159,7 +159,7 @@
 
 @keyframes words {
   0%,20%{
-      content: "Mobile Application Developer";
+      content: "Mobile Developer";
   }
   21%,40%{
       content: "Web Developer";
@@ -168,7 +168,7 @@
       content: "UI/UX Designer";
   }
   61%,80%{
-      content: "Desktop Application Developer";
+      content: "Desktop App. Developer";
   }
   81%,100%{
       content: "Problem Solver";
