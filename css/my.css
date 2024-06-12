@@ -188,8 +188,8 @@
   margin-top: 100px;
   margin-bottom: 100px;
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 320px;
+  height: 320px;
   background: #0f0f0f;
   border-radius: 50%;
   overflow: hidden;
@@ -198,10 +198,10 @@
 .profile-picture-container::before{
   content: '';
   position: absolute;
-  inset: -10px 140px;
+  inset: -10px 70px;
   background : linear-gradient(315deg,#00ccff,#d400d4);
   transition: 0.5s;
-  animation: animate 4s linear infinite;
+  animation: animate 10s linear infinite;
 }
 .profile-picture-container:hover::before{
   inset: -20px 0px;
