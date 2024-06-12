@@ -1,7 +1,13 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
 body {
   font-family: 'Open Sans', serif;
   padding-top: 40px;
-  color: #868e96; }
+  color: #868e96;
+background-color: #121212; }
 
 @media (min-width: 992px) {
   body {
@@ -17,7 +23,7 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40; }
+  color: #e6e6e6; }
 
 h1 {
   font-size: 6rem;
@@ -33,9 +39,9 @@ h2 {
   font-size: 1.35rem; }
 
 .list-social-icons a {
-  color: #495057; }
+  color: #808181; }
   .list-social-icons a:hover {
-    color: #BD5D38; }
+    color: #00d9ff; }
   .list-social-icons a .fa-lg {
     font-size: 1.75rem; }
 
