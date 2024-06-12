@@ -48,11 +48,12 @@
 .card-title {
   font-size: 1.25rem;
   font-weight: bold;
+  color: #0F0F0F;
 }
 
 .card-text {
   font-size: 0.9rem;
-  color: #6c757d;
+  color: #0F0F0F;
   flex-grow: 1;
   overflow: hidden; /* Hide overflow text */
   text-overflow: ellipsis; /* Add ellipsis (...) for overflow text */
