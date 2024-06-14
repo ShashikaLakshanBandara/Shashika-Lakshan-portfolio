@@ -6,7 +6,7 @@
 body {
     font-family: 'Open Sans', serif;
     padding-top: 54px;
-    color: #868e96;
+    color: #dfdfdf;
     background-color: #0f0f0f;
 }
 
@@ -26,7 +26,7 @@ h6 {
     font-family: 'Saira Extra Condensed', serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #e9e9e9
+    color: #dfdfdf
 }
 
 h1 {
@@ -39,7 +39,6 @@ h2 {
 }
 
 .subheading {
-    text-transform: uppercase;
     font-weight: 500;
     font-family: 'Saira Extra Condensed', serif;
     font-size: 1.35rem

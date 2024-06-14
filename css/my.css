@@ -134,7 +134,7 @@
 }
 
 .animated-text{
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 34px;
   font-weight: 600;
   min-width: 280px;
@@ -195,10 +195,10 @@
 }
 
 .profile-picture-container {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   position: relative;
-  width: 320px;
-  height: 320px;
+  width: 250px;
+  height: 250px;
   background: #0f0f0f;
   border-radius: 50%;
   overflow: hidden;
@@ -210,7 +210,7 @@
   inset: -10px 70px;
   background : linear-gradient(315deg,#00ccff,#d400d4);
   transition: 0.5s;
-  animation: animate 10s linear infinite;
+  animation: animate 20s linear infinite;
 }
 .profile-picture-container:hover::before{
   inset: -20px 0px;
@@ -253,3 +253,32 @@
   height: 100%;
   object-fit: cover;
 }
+
+#awards {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out;
+}
+
+#awards::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85); /* Optional: Adds a dark overlay */
+  z-index: 1;
+}
+
+#awards .my-auto {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+
