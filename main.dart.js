@@ -74659,7 +74659,7 @@ return A.i6(A.bt(A.b([s,A.i6(A.ZJ(B.Lh,new A.TJ(this.a),5,B.bK),1)],t.p),B.p,B.w
 $S:486}
 A.TJ.prototype={
 $2(a,b){var s=null,r=A.ak3(B.R,1),q=A.kr(10)
-return A.jq(A.ho(s,A.ZI(A.cA(s,A.eJ("assets/images/accounts/"+$.ajP()[b].a,s,s,s),B.o,s,s,new A.di(s,s,r,q,s,s,B.aH),s,300,s,B.bK,s,s,300)),B.a_,!1,s,s,s,s,s,s,s,s,s,s,s,s,new A.TI(this.a,b),s,s,s),B.bA,s,s,s,s)},
+return A.jq(A.ho(s,A.ZI(A.cA(s,A.eJ("/Shashika-Lakshan-portfolio/assets/images/accounts/"+$.ajP()[b].a,s,s,s),B.o,s,s,new A.di(s,s,r,q,s,s,B.aH),s,300,s,B.bK,s,s,300)),B.a_,!1,s,s,s,s,s,s,s,s,s,s,s,s,new A.TI(this.a,b),s,s,s),B.bA,s,s,s,s)},
 $S:487}
 A.TI.prototype={
 $0(){this.a.k5($.ajP()[this.b].b)},
